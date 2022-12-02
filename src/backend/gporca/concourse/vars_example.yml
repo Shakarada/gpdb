@@ -1,8 +1,5 @@
 private-repo-key:  |
-      -----BEGIN RSA PRIVATE KEY-----
       keygoeshere
-      -----END RSA PRIVATE KEY-----
-
 aws-access-key-id: AKAILOOKSLIKETHIS34QA
 
 aws-secret-access-key: ver6yse+cretKeY
