@@ -97,12 +97,14 @@ def create_pipeline(args, git_remote, git_branch):
     os_username = {
         "rhel8" : "rhel",
         "rocky8" : "rocky",
-        "oel8" : "oel"
+        "oel8" : "oel",
+        "rocky9" : "rocky"
     }
     test_os = {
         "rhel8" : "centos",
         "rocky8": "centos",
-        "oel8" : "centos"
+        "oel8" : "centos",
+        "rocky9" : "centos"
     }
 
 
@@ -239,7 +241,7 @@ def main():
         action='store',
         dest='os_type',
         default=default_os_type,
-        choices=['rhel8', 'rocky8', 'oel8'],
+        choices=['rhel8', 'rocky8', 'oel8' , 'rocky9'],
         help='OS value to support'
     )
 
